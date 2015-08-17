@@ -1,4 +1,4 @@
-//DATE: 14/08/2015
+//DATE: 17/08/2015
 //Author: Ramjeet Saran
 //http://www.spoj.com/problems/JULKA/
 

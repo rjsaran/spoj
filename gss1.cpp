@@ -2,6 +2,15 @@
 //Author: Ramjeet Saran
 //http://www.spoj.com/problems/GSS1/
 
+/*
+Here, question were asked to find the largest subarray sum between any two given indices in an array.
+So, for a segment tree node, we need to maintain 4 fields: left,right, sum & max.
+Left: the best sum we can obtain provided the subarray starts from the leftmost index in the interval. max(left.left, right.left + left.sum)
+Right: the best sum we can obtain provided the subarray ends at the rightmost index in the interval. max(right.right, right.sum + left.right);
+Sum: Sum of all elements in the interval. left.sum + right.sum
+max: The largest subarray sum we can have in an interval. max(left.max, right.max, left.right + right.left)
+*/
+
 #include <bits/stdc++.h>
 
 # define MAX(a,b) a>b ? a : b;

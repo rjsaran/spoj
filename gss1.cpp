@@ -1,4 +1,4 @@
-//DATE: 23/08/2015
+//DATE: 30/08/2015
 //Author: Ramjeet Saran
 //http://www.spoj.com/problems/GSS1/
 

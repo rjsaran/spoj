@@ -1,4 +1,4 @@
-//DATE: 15/0/2016
+//DATE: 15/06/2016
 //Author: Ramjeet Saran
 //http://www.spoj.com/problems/NHAY/
 
